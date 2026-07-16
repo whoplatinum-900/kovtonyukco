@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kovtonyuk &amp; Co. — приватна архітектура і будівництво</title>
+<meta name="description" content="Kovtonyuk & Co. — студія повного циклу: архітектура, інтер'єр і будівництво елітних приватних будинків в Україні та Європі.">
+</head>
+<body>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap');
 
@@ -79,7 +88,9 @@ html{scroll-behavior:smooth;}
 #kc-root .site-nav{
   position:sticky;top:64px;z-index:90;width:100%;
   display:flex;justify-content:center;gap:0;
-  background:var(--zinc);border-top:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark);
+  margin-top:-64px;
+  background:rgba(28,26,22,0.55);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-top:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark);
 }
 #kc-root .site-nav a{
   flex:1;text-align:center;padding:20px 20px;
@@ -180,7 +191,7 @@ html{scroll-behavior:smooth;}
   #kc-root header{padding:18px 22px;}
   #kc-root section{padding:80px 0;}
   #kc-root .about-stats{grid-template-columns:1fr;gap:18px;}
-  #kc-root .site-nav{flex-direction:column;top:64px;}
+  #kc-root .site-nav{flex-direction:column;top:64px;margin-top:0;}
   #kc-root .site-nav a{border-right:none;border-bottom:1px solid var(--line-dark);padding:14px;}
   #kc-root .site-nav a:last-child{border-bottom:none;}
 }
@@ -396,3 +407,5 @@ html{scroll-behavior:smooth;}
   }
 })();
 </script>
+</body>
+</html>
